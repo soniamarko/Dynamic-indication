@@ -3,7 +3,7 @@
 
 Одноразрядный семисегментный индикатор:
 
-![7segment](https://github.com/user-attachments/assets/5b1d1606-c7e1-43f5-b83d-5b4245969c9b) Рис.1
+![7segment](https://github.com/user-attachments/assets/5b1d1606-c7e1-43f5-b83d-5b4245969c9b) <br>Рис.1
 
 Посмотрим на Рис.1 выше и видим вот эти буквенные обозначения около каждой стороны: 
 a - соответствует  нулевому биту
@@ -17,7 +17,7 @@ b - первому биту
 
 PORTD = 0b00000111
 
-![1shema](https://github.com/user-attachments/assets/b6bc2b0b-2da6-490f-a3da-6143b66d7d04) Рис.2
+![1shema](https://github.com/user-attachments/assets/b6bc2b0b-2da6-490f-a3da-6143b66d7d04) <br>Рис.2
 
 На Рис.2 схема подключения индикатора в Proteus к микроконтроллеру ATmega8. 
 
@@ -68,12 +68,12 @@ int main(void)
 ---
 
 Далее речь пойдёт о 4-х разрядном семисегментном индикаторе.
-![4-7s](https://github.com/user-attachments/assets/cdc8c2c0-f325-4a11-8fdc-c1ec64953693) Рис.3
+![4-7s](https://github.com/user-attachments/assets/cdc8c2c0-f325-4a11-8fdc-c1ec64953693) <br>Рис.3
 
 На Рис.3 изображена распиновка для 4-х разрядного семисегментного индикатора. Один разряд - одна цифра на индикаторе. 
 У каждого разряда есть свой общий вывод: катод или анод. на фото выше - катод, если диодики смотрели бы вниз, то это был бы общий анод.
 
-![2shema](https://github.com/user-attachments/assets/b139144b-0dfa-477e-b95c-ceae2712b4e1) Рис.4
+![2shema](https://github.com/user-attachments/assets/b139144b-0dfa-477e-b95c-ceae2712b4e1) <br>Рис.4
 
 На Рис.4 изображена схема подключение индикатора в Proteus к микроконтроллеру ATmega8. 
 
@@ -135,7 +135,7 @@ PORTx = 1 - 5В
 
 Если стоит задачка: на индикаторе 0000. при нажатии на одну кнопку можно увеличивать число и при нажатии на другую кнопку это число можно уменьшать.
 
-![3shema](https://github.com/user-attachments/assets/8d9b1ddd-50fc-4d34-9573-a27a60c9a69a) Рис.5
+![3shema](https://github.com/user-attachments/assets/8d9b1ddd-50fc-4d34-9573-a27a60c9a69a) <br>Рис.5
 
 Подключили кнопки к выводам порта С (Рис.5)
 В данном случае будет необходимо использовать таймер-счётчик. 
